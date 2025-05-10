@@ -27,6 +27,7 @@ COPY pyproject.toml poetry.lock ./
 # Устанавливаем зависимости через Poetry
 RUN poetry install --no-interaction --no-ansi --no-root
 
+# После poetry install добавьте:
 # Копируем код приложения
 COPY entrypoint.sh /usr/src/myapp
 COPY src .
