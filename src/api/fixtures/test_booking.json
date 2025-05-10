@@ -1,0 +1,29 @@
+[
+{
+  "model": "api.reservation",
+  "pk": 1,
+  "fields": {
+    "hotel_room": 1,
+    "date_start": "2025-04-05",
+    "date_end": "2025-04-10"
+  }
+},
+{
+  "model": "api.reservation",
+  "pk": 2,
+  "fields": {
+    "hotel_room": 1,
+    "date_start": "2025-04-11",
+    "date_end": "2025-04-15"
+  }
+},
+{
+  "model": "api.reservation",
+  "pk": 3,
+  "fields": {
+    "hotel_room": 1,
+    "date_start": "2025-04-16",
+    "date_end": "2025-04-24"
+  }
+}
+]
